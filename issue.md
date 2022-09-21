@@ -15,9 +15,18 @@ git commit -m "~~"
 git push origin master
 ```
 
+### 깃모지를 사용해보자
+- 깃모지 설치는 `npm i -g gitmoji-cli`
+- 깃모지 설명은 `gitmoji --help`
+- `git commit -m` 대신에 `gitmoji -c`로 커밋 작성하기
+- 약속된 깃모지 내용은 [여기](https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-Gitmoji-%EC%82%AC%EC%9A%A9%EB%B2%95-Gitmoji-cli) 참고하기
 
-### 의문..
-![](2022-09-21-22-36-10.png)
+
+### 의문1
+![](2022-09-21-23-44-29.png)
 - 왜 주석도 에러로 뜨지?
 - 왜 props 사용 안했다고 난리지..
 - 원래 이렇게 해야하는건가?
+
+### 의문2
+- h1, h2, input 같은 태그들의 기본 스타일(?)이 반영이 안된다. 왜지? 

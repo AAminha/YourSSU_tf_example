@@ -1,7 +1,13 @@
 import React from 'react'
+import Router from './routes/Router'
+import Layout from './layout/Layout'
 
 const App = () => {
-  return <h1>테스트</h1>
+  return (
+    <Layout>
+      <Router />
+    </Layout>
+  )
 }
 
 export default App
