@@ -20,6 +20,7 @@ git push origin master
 - 깃모지 설명은 `gitmoji --help`
 - `git commit -m` 대신에 `gitmoji -c`로 커밋 작성하기
 - 약속된 깃모지 내용은 [여기](https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-Gitmoji-%EC%82%AC%EC%9A%A9%EB%B2%95-Gitmoji-cli) 참고하기
+- 깃모지에 맞는 커밋이 되어야 하므로 커밋을 조금 세분화해서 하기!!
 
 
 ### 의문1
