@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
   return (
@@ -22,7 +23,10 @@ const Login = () => {
           placeholder="비밀번호 입력해라"
         />
       </form>
-      <button type="submit">로그인</button>
+      <div>
+        <Link to="/signup">아이디가 없으신가요?</Link>
+        <button type="submit">로그인</button>
+      </div>
     </div>
   )
 }

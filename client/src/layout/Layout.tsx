@@ -3,10 +3,10 @@ import Navigation from './Navigation'
 
 const Layout = ({ children }: any) => {
   return (
-    <body>
+    <div>
       <Navigation />
       {children}
-    </body>
+    </div>
   )
 }
 
